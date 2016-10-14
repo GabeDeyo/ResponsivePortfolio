@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Gabe Deyo | Game Developer</title>
+  <meta name="description" content="Portfolio for Gabriel Deyo.">
+  <meta name="author" content="Gabriel Deyo">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+
+   <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/magnific-popups.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<header class="main_nav green">
+  <div class="container">
+    <div class="twelve columns">
+      <div class="logo">
+        <a href="#">GABE DEYO</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container main">
+  <div class="row">
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+    <div class="four columns portfolio">
+      <a class="image-link" href="images/favicon.png"><img src="images/favicon.png"></a>
+    </div>
+  </div>
+
+</div>
+
+<div class="row green">
+  <div class="container">
+    <div class="four columns">
+      <img class="avatar" src="images/favicon.png">
+    </div>
+    <div class="eight columns">
+      <h2 class="bio">About Gabe Deyo</h2>
+      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, tempora,
+        harum. Animi asperiores numquam itaque, magni sed expedita nulla dolorem,
+        quibusdam inventore, incidunt autem iusto repudiandae similique aspernatur
+        eaque non.
+      </p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row twelve columns">
+        <ul class="social">
+            <li class="facebook"><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+            <li class="twitter"><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+            <li class="instagram"><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+            <li class="flickr"><a href="#"><i class="fa fa-flickr fa-lg"></i></a></li>
+            <li class="youtube"><a href="#"><i class="fa fa-youtube-square fa-lg"></i></a></li>
+            <li class="linkedin"><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+        </ul>
+    </div>
+    <div class="row twelve columns">
+      <p class="copyright">&copy; 2016 Gabriel Deyo. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/jquery.magnific-popups.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.image-link').magnificPopup({
+                type:'image',
+                mainClass: 'mfp-with-zoom',
+                zoom:{
+                    enabled: true,
+                    duration: 500,
+                    easing: 'ease-in-out',
+                    opener: function(openerElement){
+                        return openerElement.is('img') ? openerElement : openerElement.find('img');
+                    }
+                }
+            });
+        })
+    </script>
+</body>
+</html>
